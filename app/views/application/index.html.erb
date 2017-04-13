@@ -1,0 +1,9 @@
+<%= form_tag '/add_item' do %>
+  <label>Stff</label><br>
+  <%= text_field_tag :'product' %>
+
+  <%= submit_tag "add to cart" %>
+
+<% end %>
+
+<p><%= @cart %></p>
